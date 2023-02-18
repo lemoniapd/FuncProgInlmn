@@ -1,7 +1,8 @@
-package del1;
+package del1.AoC2022_Day1;
 
 import del1.AoC2022_Day1.Day1a_Before;
 import del1.AoC2022_Day1.Day1b_Before;
+import del1.FileToListConverter;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -10,7 +11,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class Day1Test {
+public class AoC2022_Day1Test {
     FileToListConverter fileToListConverter = new FileToListConverter();
     List<String> testInput = fileToListConverter.listFromInputFile("src/Del1/AoC2022_Day1/testInput");
     Day1a_Before day1a = new Day1a_Before();

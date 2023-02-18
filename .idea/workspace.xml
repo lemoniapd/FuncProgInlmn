@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7787038-1982-40b8-b6e0-38d404145b88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FuncProgInlmn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Nordpolen/Tomte.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Nordpolen/Tomteland.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/actualInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1a-Before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1b-Before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/testInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/actualInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2a-Before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2b-Before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/testInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/FileToListConverter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Nordpolen/TomtelandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/del1/Day1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/del1/Day2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/del1/FileToListConverterTest.java" afterDir="false" />
+    <list default="true" id="a7787038-1982-40b8-b6e0-38d404145b88" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/src/del1/AoC2015_Day1/actualInput" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/del1/AoC2015_Day1/day1a_Before.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/del1/AoC2015_Day1/day1b_Before.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day1/Day1a_BeforeTestKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day1/Day1b_BeforeTestKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day2/Day2a_BeforeTestKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day2/Day2b_BeforeTestKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1a-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1a-Before.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1b-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1b-Before.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2a-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2a-Before.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2b-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2b-Before.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1/FileToListConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/FileToListConverter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del1/Day1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day1/AoC2022_Day1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del1/Day2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day2/AoC2022_Day2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -67,11 +58,15 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/Del1/AoC2022_Day2"
+    "last_opened_file_path": "/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1/AoC2015_Day1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/del1/AoC2015_Day1" />
       <recent name="$PROJECT_DIR$/src/Del1/AoC2022_Day2" />
       <recent name="$PROJECT_DIR$/src/Del1/AoC2022_Day1" />
       <recent name="$PROJECT_DIR$/src/Del1" />
@@ -82,7 +77,13 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Del1/AoC2022_Day1" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="del1.AoC2022_Day2" />
+      <recent name="del1.AoC2022_Day1" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="del1.AoC2022_Day2" />
+      <recent name="del1.AoC2022_Day1" />
       <recent name="Del1" />
       <recent name="Nordpolen" />
     </key>
@@ -90,55 +91,31 @@
       <recent name="Del1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Day2a_BeforeKt">
-    <configuration name="Day1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.Day1b_BeforeKt">
+    <configuration name="AoC2022_Day2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FuncProgInlmn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="del1.*" />
+          <option name="PATTERN" value="del1.AoC2022_Day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Del1" />
-      <option name="MAIN_CLASS_NAME" value="del1.Day1Test" />
+      <option name="PACKAGE_NAME" value="del1.AoC2022_Day2" />
+      <option name="MAIN_CLASS_NAME" value="del1.AoC2022_Day2.AoC2022_Day2Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day1a_BeforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="del1.AoC2015_Day1.Day1a_BeforeKt" />
       <module name="FuncProgInlmn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="del1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Del1" />
-      <option name="MAIN_CLASS_NAME" value="del1.Day2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day2Test.getMyScoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FuncProgInlmn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="del1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="del1" />
-      <option name="MAIN_CLASS_NAME" value="del1.Day2Test" />
-      <option name="METHOD_NAME" value="getMyScoreTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day1b_BeforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="del1.AoC2022_Day1.Day1b_BeforeKt" />
+      <option name="MAIN_CLASS_NAME" value="del1.AoC2015_Day1.Day1b_BeforeKt" />
       <module name="FuncProgInlmn" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,13 +128,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day2b_BeforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="del1.AoC2022_Day2.Day2b_BeforeKt" />
+      <module name="FuncProgInlmn" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Day2a_BeforeKt" />
-        <item itemvalue="JUnit.Day2Test.getMyScoreTest" />
-        <item itemvalue="JUnit.Day2Test" />
-        <item itemvalue="JUnit.Day1Test" />
         <item itemvalue="Kotlin.Day1b_BeforeKt" />
+        <item itemvalue="Kotlin.Day1a_BeforeKt" />
+        <item itemvalue="JUnit.AoC2022_Day2Test" />
+        <item itemvalue="Kotlin.Day2b_BeforeKt" />
+        <item itemvalue="Kotlin.Day2a_BeforeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -170,8 +154,23 @@
       <option name="presentableId" value="Default" />
       <updated>1676472110151</updated>
       <workItem from="1676472112252" duration="5231000" />
-      <workItem from="1676477601015" duration="16336000" />
+      <workItem from="1676477601015" duration="16448000" />
+      <workItem from="1676715549684" duration="473000" />
+      <workItem from="1676716056115" duration="5021000" />
     </task>
+    <task id="LOCAL−00001" summary="initial commit">
+      <created>1676715488281</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1676715488281</updated>
+    </task>
+    <task id="LOCAL−00002" summary="initial commit">
+      <created>1676715505659</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1676715505659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,5 +186,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

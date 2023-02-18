@@ -19,7 +19,6 @@ class Day1a_Before {
         return intList.get(0)
     }
 }
-
 fun main() {
     val fileToListConverter = FileToListConverter()
     val day1a = Day1a_Before()

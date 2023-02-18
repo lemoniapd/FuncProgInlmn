@@ -15,7 +15,6 @@ class Day1b_Before {
             }
         }
         intList.sortDescending()
-        //println(intList.joinToString(" "))
         return intList.get(0) + intList.get(1) + intList.get(2)
     }
 }
