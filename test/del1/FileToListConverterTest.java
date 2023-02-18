@@ -7,9 +7,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class FileReaderTest {
-    FileReader fileReader = new FileReader();
-    List<String> testInput = fileReader.listFromInputFile("src/Del1/AoC2022_Day1/testInput");
+public class FileToListConverterTest {
+    FileToListConverter fileToListConverter = new FileToListConverter();
+    List<String> testInput = fileToListConverter.listFromInputFile("src/Del1/AoC2022_Day1/testInput");
     List<String> listToCompare = Arrays.asList("1000", "2000", "3000", " ", "4000", " ", "5000", "6000", " ", "7000", "8000", "9000", " ", "10000");
 
     @Test

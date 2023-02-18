@@ -1,4 +1,3 @@
 package Nordpolen
 
-class Tomte {
-}
+class Tomte (name: String)

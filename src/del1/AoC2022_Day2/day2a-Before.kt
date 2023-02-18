@@ -1,6 +1,7 @@
-package Del1.AoC2022_Day2
+package del1.AoC2022_Day2
 
-import Del1.FileReader
+import del1.FileToListConverter
+
 
 /*
 Opponent:
@@ -19,16 +20,16 @@ class Day2a_Before {
         val roundsMap = inputList.chunked(2)
         for ((key, value) in roundsMap) {
             when (key){
-                "A" -> if (value.contains("Z")){
+                "A" -> if (value.equals("Z")){
                     myScore += 3
-                } else if (value.contains("Y")){
+                } else if (value.equals("Y")){
                     myScore += 8
-                } else if (value.contains("X")){
+                } else if (value.equals("X")){
                     myScore += 4
                 }
-                "B" -> if (value.contains("Z")){
+                "B" -> if (value.equals("Z")){
                     myScore += 9
-                } else if (value.contains("Y")){
+                } else if (value.equals("Y")){
                     myScore += 5
                 } else if (value.equals("X")){
                     myScore += 1
@@ -47,9 +48,12 @@ class Day2a_Before {
 }
 
 fun main() {
-    val fileReader = FileReader()
+    val fileToListConverter = FileToListConverter()
     val day2a = Day2a_Before()
-    val listWithInput = fileReader.listFromInputFile("src/Del1/AoC2022_Day2/testInput")
-    println(listWithInput.joinToString(".")) //
-    //println(day2a.getMyScore(listWithInput))
+    val listWithInput = fileToListConverter.listFromInputFileNoBlanks("src/del1/AoC2022_Day2/testInput")
+    // src/del1/AoC2022_Day2/testInput
+    // src/del1/AoC2022_Day2/actualInput
+    //val listAsString = listWithInput.joinToString(" ")
+    //val result: List<String> = listAsString.split(" ").map { it.trim() }
+    println(day2a.getMyScore(listWithInput))
 }

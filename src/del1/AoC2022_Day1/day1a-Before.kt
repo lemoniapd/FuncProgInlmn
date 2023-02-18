@@ -1,6 +1,6 @@
-package Del1.AoC2022_Day1
+package del1.AoC2022_Day1
 
-import Del1.FileReader
+import del1.FileToListConverter
 
 class Day1a_Before {
 
@@ -21,8 +21,8 @@ class Day1a_Before {
 }
 
 fun main() {
-    val fileReader = FileReader()
+    val fileToListConverter = FileToListConverter()
     val day1a = Day1a_Before()
-    val listWithInput = fileReader.listFromInputFile("src/Del1/AoC2022_Day1/actualInput")
+    val listWithInput = fileToListConverter.listFromInputFile("src/Del1/AoC2022_Day1/actualInput")
     println(day1a.getHighestSumValueFromInputList(listWithInput))
 }
