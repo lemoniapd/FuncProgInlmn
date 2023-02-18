@@ -1,0 +1,4 @@
+package Nordpolen
+
+class Tomte {
+}
