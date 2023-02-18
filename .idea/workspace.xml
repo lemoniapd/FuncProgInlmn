@@ -111,12 +111,12 @@
       <module name="FuncProgInlmn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="del1.AoC2022_Day1.*" />
+          <option name="PATTERN" value="del1_AoC.AoC2022_Day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="del1.AoC2022_Day2" />
-      <option name="MAIN_CLASS_NAME" value="del1.AoC2022_Day2.AoC2022_Day2Test" />
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2022_Day2.AoC2022_Day2Test" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,33 +126,33 @@
       <module name="FuncProgInlmn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="del1.*" />
+          <option name="PATTERN" value="del1_AoC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="del1" />
-      <option name="MAIN_CLASS_NAME" value="del1.FileToListConverterTest" />
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.FileToListConverterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day1a_2018_beforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="del1.AoC2018_Day1.Day1a_2018_beforeKt" />
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2018_Day1.Day1a_2018_beforeKt" />
       <module name="FuncProgInlmn" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day1a_2021_beforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="del1.AoC2021_Day1.Day1a_2021_beforeKt" />
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2021_Day1.Day1a_2021_beforeKt" />
       <module name="FuncProgInlmn" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Day1b_2018_beforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="del1.AoC2018_Day1.Day1b_2018_beforeKt" />
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2018_Day1.Day1b_2018_beforeKt" />
       <module name="FuncProgInlmn" />
       <method v="2">
         <option name="Make" enabled="true" />
