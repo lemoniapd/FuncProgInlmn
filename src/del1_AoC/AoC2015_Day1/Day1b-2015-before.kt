@@ -37,6 +37,6 @@ class Day1b_2015_before {
 fun main() {
     val fileToListConverter = FileToListConverter()
     val day1b = Day1b_2015_before()
-    val listWithInput = fileToListConverter.listFromInputFileString("/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1/AoC2015_Day1/actualInput")
+    val listWithInput = fileToListConverter.listFromInputFileString("src/del1_AoC/AoC2015_Day1/actualInput")
     println(day1b.getIndexOfBasement(listWithInput))
 }

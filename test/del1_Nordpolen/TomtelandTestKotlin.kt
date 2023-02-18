@@ -1,4 +1,4 @@
-package del2_Nordpolen
+package del1_Nordpolen
 
 import org.junit.Test
 import org.junit.jupiter.api.Assertions.*

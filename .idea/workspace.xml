@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7787038-1982-40b8-b6e0-38d404145b88" name="Changes" comment="added assignments">
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2018_Day1/Day1a-2018-before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2018_Day1/Day1b-2018-before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2018_Day1/actualInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2018_Day1/testInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2021_Day1/Day1a-2021-before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2021_Day1/Day1b-2021-before.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2021_Day1/actualInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/del1/AoC2021_Day1/testInput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Nordpolen/TomtelandTestKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/del1/AoC2015_Day1/AoC2015_Day1TestKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/del1/AoC2018_Day1/AoC2018_Day1TestKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/del1/AoC2021_Day1/AoC2021_Day1TestKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/del1/FileToListConverterTestKotlin.kt" afterDir="false" />
+    <list default="true" id="a7787038-1982-40b8-b6e0-38d404145b88" name="Changes" comment="package renaming">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1/AoC2015_Day1/day1a_Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2015_Day1/Day1a-2015-before.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1/AoC2015_Day1/day1b_Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2015_Day1/Day1b-2015-before.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1a-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/Day1a-2022-before.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day1/day1b-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day1/Day1b-2022-before.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2a-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2a-Before.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2b-Before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/AoC2022_Day2/day2b-Before.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1/FileToListConverter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1/FileToListConverter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1/AoC2022_Day1/AoC2022_Day1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day1/AoC2022_Day1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1/AoC2022_Day1/Day1a_BeforeTestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day1/AoC2022_Day1TestKotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1/AoC2022_Day1/Day1b_BeforeTestKotlin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1/AoC2022_Day2/AoC2022_Day2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day2/AoC2022_Day2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1/AoC2022_Day2/Day2a_BeforeTestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1/AoC2022_Day2/AoC2022_Day2TestKotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1/AoC2022_Day2/Day2b_BeforeTestKotlin.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1/FileToListConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1/FileToListConverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1_AoC/AoC2015_Day1/Day1a-2015-before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1_AoC/AoC2015_Day1/Day1a-2015-before.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1_AoC/AoC2015_Day1/Day1b-2015-before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1_AoC/AoC2015_Day1/Day1b-2015-before.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del1_AoC/AoC2018_Day1/Day1a-2018-before.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1_AoC/AoC2018_Day1/Day1a-2018-before.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del2_Nordpolen/Tomte.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1_Nordpolen/Tomte.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del2_Nordpolen/Tomteland.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del1_Nordpolen/Tomteland.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del1_AoC/AoC2015_Day1/AoC2015_Day1TestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1_AoC/AoC2015_Day1/AoC2015_Day1TestKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del1_AoC/AoC2018_Day1/AoC2018_Day1TestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1_AoC/AoC2018_Day1/AoC2018_Day1TestKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del1_AoC/AoC2021_Day1/AoC2021_Day1TestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1_AoC/AoC2021_Day1/AoC2021_Day1TestKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del2_Nordpolen/TomtelandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1_Nordpolen/TomtelandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del2_Nordpolen/TomtelandTestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1_Nordpolen/TomtelandTestKotlin.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,22 +89,7 @@
       <recent name="Del1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileToListConverterTest">
-    <configuration name="AoC2022_Day2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FuncProgInlmn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="del1_AoC.AoC2022_Day1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="del1.AoC2022_Day2" />
-      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2022_Day2.AoC2022_Day2Test" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.Day1a_2018_beforeKt">
     <configuration name="FileToListConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FuncProgInlmn" />
       <extension name="coverage">
@@ -133,6 +101,13 @@
       <option name="PACKAGE_NAME" value="del1" />
       <option name="MAIN_CLASS_NAME" value="del1_AoC.FileToListConverterTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day1a_2015_beforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2018_Day1.Day1a_2015_beforeKt" />
+      <module name="FuncProgInlmn" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day1b_2018_beforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2018_Day1.Day1b_2018_beforeKt" />
+    <configuration name="Day1b_2015_beforeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2018_Day1.Day1b_2015_beforeKt" />
       <module name="FuncProgInlmn" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Day1a_2018_beforeKt" />
+        <item itemvalue="Kotlin.Day1b_2015_beforeKt" />
+        <item itemvalue="Kotlin.Day1a_2015_beforeKt" />
         <item itemvalue="JUnit.FileToListConverterTest" />
         <item itemvalue="Kotlin.Day1a_2021_beforeKt" />
-        <item itemvalue="Kotlin.Day1b_2018_beforeKt" />
-        <item itemvalue="Kotlin.Day1a_2018_beforeKt" />
-        <item itemvalue="JUnit.AoC2022_Day2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +154,7 @@
       <workItem from="1676472112252" duration="5231000" />
       <workItem from="1676477601015" duration="16448000" />
       <workItem from="1676715549684" duration="473000" />
-      <workItem from="1676716056115" duration="12365000" />
+      <workItem from="1676716056115" duration="13224000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1676715488281</created>
@@ -199,7 +174,19 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1676722151729</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="added assignments and tests">
+      <created>1676730612908</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1676730612908</updated>
+    </task>
+    <task id="LOCAL−00005" summary="package renaming">
+      <created>1676730727015</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1676730727015</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +206,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="added assignments" />
-    <option name="LAST_COMMIT_MESSAGE" value="added assignments" />
+    <MESSAGE value="added assignments and tests" />
+    <MESSAGE value="package renaming" />
+    <option name="LAST_COMMIT_MESSAGE" value="package renaming" />
   </component>
 </project>

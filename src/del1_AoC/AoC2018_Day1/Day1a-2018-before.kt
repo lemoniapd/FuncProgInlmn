@@ -45,6 +45,6 @@ class Day1a_2018_before {
 fun main() {
     val fileToListConverter = FileToListConverter()
     val day1a = Day1a_2018_before()
-    val listWithInput = fileToListConverter.listFromInputFileString("src/del1/AoC2018_Day1/actualInput")
+    val listWithInput = fileToListConverter.listFromInputFileString("src/del1_AoC/AoC2018_Day1/actualInput")
     println(day1a.getFrequency(listWithInput))
 }
