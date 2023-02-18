@@ -3,7 +3,11 @@ package del1
 import java.io.File
 
 class FileToListConverter {
-    fun listFromInputFile(path: String): List<String> {
+    fun listFromInputFileString(path: String): List<String> {
         return File(path).readLines()
+    }
+    fun listFromInputFileInt(path: String): List<Int> {
+        val stringList = File(path).readLines()
+        return stringList.map { it.toInt() }
     }
 }

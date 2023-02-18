@@ -1,4 +1,4 @@
-package del1.AoC2015_Day1
+package del1.AoC2018_Day1
 
 import del1.FileToListConverter
 
@@ -22,7 +22,7 @@ To what floor do the instructions take Santa?
  */
 
 
-class Day1a_Before {
+class Day1a_2015_before {
 
     fun getFloorLevel(inputList: List<String>): Int {
         var level = 0
@@ -39,7 +39,7 @@ class Day1a_Before {
 
 fun main() {
     val fileToListConverter = FileToListConverter()
-    val day1a = Day1a_Before()
-    val listWithInput = fileToListConverter.listFromInputFile("/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1/AoC2015_Day1/actualInput")
+    val day1a = Day1a_2015_before()
+    val listWithInput = fileToListConverter.listFromInputFileString("/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1/AoC2015_Day1/actualInput")
     println(day1a.getFloorLevel(listWithInput))
 }

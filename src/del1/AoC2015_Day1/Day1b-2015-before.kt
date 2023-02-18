@@ -1,4 +1,4 @@
-package del1.AoC2015_Day1
+package del1.AoC2018_Day1
 
 import del1.FileToListConverter
 
@@ -14,7 +14,7 @@ What is the position of the character that causes Santa to first enter the basem
  */
 
 
-class Day1b_Before {
+class Day1b_2015_before {
 
     fun getIndexOfBasement(inputList: List<String>): Int {
         var level = 0
@@ -36,7 +36,7 @@ class Day1b_Before {
 
 fun main() {
     val fileToListConverter = FileToListConverter()
-    val day1b = Day1b_Before()
-    val listWithInput = fileToListConverter.listFromInputFile("/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1/AoC2015_Day1/actualInput")
+    val day1b = Day1b_2015_before()
+    val listWithInput = fileToListConverter.listFromInputFileString("/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1/AoC2015_Day1/actualInput")
     println(day1b.getIndexOfBasement(listWithInput))
 }

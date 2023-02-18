@@ -37,6 +37,6 @@ class Day2a_Before {
 fun main() {
     val fileToListConverter = FileToListConverter()
     val day2a = Day2a_Before()
-    val listWithInput = fileToListConverter.listFromInputFile("src/del1/AoC2022_Day2/actualInput")
+    val listWithInput = fileToListConverter.listFromInputFileString("src/del1/AoC2022_Day2/actualInput")
     println(day2a.getMyScore(listWithInput))
 }

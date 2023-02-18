@@ -1,0 +1,3 @@
+package del1.AoC2021_Day1
+
+internal class AoC2021_Day1TestKotlin

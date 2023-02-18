@@ -1,7 +1,5 @@
 package del1.AoC2022_Day1;
 
-import del1.AoC2022_Day1.Day1a_Before;
-import del1.AoC2022_Day1.Day1b_Before;
 import del1.FileToListConverter;
 import org.junit.Test;
 
@@ -13,9 +11,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AoC2022_Day1Test {
     FileToListConverter fileToListConverter = new FileToListConverter();
-    List<String> testInput = fileToListConverter.listFromInputFile("src/Del1/AoC2022_Day1/testInput");
-    Day1a_Before day1a = new Day1a_Before();
-    Day1b_Before day1b = new Day1b_Before();
+    List<String> testInput = fileToListConverter.listFromInputFileString("src/Del1/AoC2022_Day1/testInput");
+    Day1a_2022_before day1a = new Day1a_2022_before();
+    Day1b_2022_before day1b = new Day1b_2022_before();
 
 
     @Test
@@ -25,12 +23,14 @@ public class AoC2022_Day1Test {
         assertTrue(testInput.retainAll(listToCompare));
     }
 
+    //1a
     @Test
     public final void getHighestSumValueFromInputListTest(){
         int highestTestValue = day1a.getHighestSumValueFromInputList(testInput);
         assertEquals(24000, highestTestValue);
     }
 
+    //1b
     @Test
     public final void getHighestThreeSumValueFromInputListTest(){
         int highestThreeTestValues = day1b.getHighestThreeSumValueFromInputList(testInput);

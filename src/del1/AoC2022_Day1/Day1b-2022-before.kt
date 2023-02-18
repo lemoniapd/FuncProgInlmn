@@ -2,7 +2,7 @@ package del1.AoC2022_Day1
 
 import del1.FileToListConverter
 
-class Day1b_Before {
+class Day1b_2022_before {
     fun getHighestThreeSumValueFromInputList(inputList: List<String>): Int {
         val intList = mutableListOf<Int>()
         var sum = 0
@@ -21,7 +21,7 @@ class Day1b_Before {
 
 fun main() {
     val fileToListConverter = FileToListConverter()
-    val day1b = Day1b_Before()
-    val listWithInput = fileToListConverter.listFromInputFile("src/Del1/AoC2022_Day1/actualInput")
+    val day1b = Day1b_2022_before()
+    val listWithInput = fileToListConverter.listFromInputFileString("src/Del1/AoC2022_Day1/actualInput")
     println(day1b.getHighestThreeSumValueFromInputList(listWithInput))
 }
