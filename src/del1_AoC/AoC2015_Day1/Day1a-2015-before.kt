@@ -28,9 +28,9 @@ class Day1a_2015_before {
         var level = 0
         val stringInput = inputList.get(0)
         for (i in 0 until stringInput.length) {
-            when (stringInput[i].toString()) {
-                "(" -> level += 1
-                ")" -> level -= 1
+            when (stringInput[i]) {
+                '(' -> level += 1
+                ')' -> level -= 1
             }
         }
         return level
