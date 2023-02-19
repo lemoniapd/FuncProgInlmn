@@ -1,3 +1,3 @@
-package del1_Nordpolen
+package del2_Nordpolen
 
 class Tomte (name: String)

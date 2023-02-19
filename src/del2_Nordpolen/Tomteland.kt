@@ -1,4 +1,4 @@
-package del1_Nordpolen
+package del2_Nordpolen
 
 class Tomteland {
 
