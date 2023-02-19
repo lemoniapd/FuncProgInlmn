@@ -6,8 +6,10 @@ class FileToListConverter {
     fun listFromInputFileString(path: String): List<String> {
         return File(path).readLines()
     }
+
     fun listFromInputFileInt(path: String): List<Int> {
-        val stringList = File(path).readLines()
-        return stringList.map { it.toInt() }
+        return path.let {
+            File(path).readLines().map { it.toIntOrNull() }.filterNotNull().toList()
+        }
     }
 }

@@ -27,52 +27,24 @@ What is the first frequency your device reaches twice?
 
 class Day1b_2018_before {
 
-    fun getAllFrequencies(inputList: List<String>): List<Int> {
-        val intList = mutableListOf<Int>()
-        val listOfFrequencies = mutableListOf<Int>()
-        var frequency = 0
-        for (element in inputList) {
-            intList.add(element.toInt())
-        }
-        for (element in intList) {
-            if (element < 0) {
-                frequency -= (element - element * 2)
-                listOfFrequencies.add(frequency)
-            }
-            if (element > 0) {
-                frequency += element
-                listOfFrequencies.add(frequency)
-            }
-        }
-        return listOfFrequencies
-    }
-
     fun getFirstDuplicate(fullList: List<Int>): Int {
-        val seen: MutableSet<Int> = mutableSetOf()
-        var firstDupelicate = 0
-        for (i in fullList) {
-            if (!seen.add(i))
-                firstDupelicate = i
-        }
-        return firstDupelicate
-    }
-
-    fun findAllDuplicates(fullList: List<Int>): Set<Int> {
-        val seen: MutableSet<Int> = mutableSetOf()
-        val duplicates: MutableSet<Int> = mutableSetOf()
-        for (i in fullList) {
-            if (!seen.add(i)) {
-                duplicates.add(i)
+        val seen = mutableSetOf<Int>()
+        var currentFrequency = 0
+        while (true) {
+            for (i in fullList) {
+                currentFrequency += i
+                if (seen.contains(currentFrequency)) {
+                    return currentFrequency
+                }
+                seen.add(currentFrequency)
             }
         }
-        return duplicates
     }
 }
-
 
 fun main() {
     val fileToListConverter = FileToListConverter()
     val day1b = Day1b_2018_before()
-    val listWithInput = fileToListConverter.listFromInputFileString("src/del1/AoC2018_Day1/actualInput")
-    println(day1b.getAllFrequencies(listWithInput).joinToString(":"))
+    val listWithInput = fileToListConverter.listFromInputFileInt("src/del1_AoC/AoC2018_Day1/actualInput")
+    println(day1b.getFirstDuplicate(listWithInput))
 }
