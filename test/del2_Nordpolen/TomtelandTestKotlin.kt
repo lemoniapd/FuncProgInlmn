@@ -4,84 +4,63 @@ import org.junit.Test
 import org.junit.jupiter.api.Assertions.*
 import java.util.*
 
-internal class TomtelandTestKotlin
+internal class TomtelandTestKotlin {
 
-var tomteland = Tomteland()
-var underTomten = Arrays.asList(
-    "Tröger",
-    "Trötter",
-    "Blyger",
-    "Dammråttan",
-    "Skumtomten",
-    "Glader",
-    "Butter",
-    "Rådjuret",
-    "Nyckelpigan",
-    "Haren",
-    "Räven",
-    "Gråsuggan",
-    "Myran",
-    "Bladlusen"
-)
-var underGlader = Arrays.asList("Tröger", "Trötter", "Blyger", "Dammråttan", "Skumtomten")
-var underButter = Arrays.asList("Rådjuret", "Nyckelpigan", "Haren", "Räven", "Gråsuggan", "Myran", "Bladlusen")
-var underTrötter = Arrays.asList("Dammråttan", "Skumtomten")
-var underSkumtomten = Arrays.asList("Dammråttan")
-var underRäven = Arrays.asList("Gråsuggan", "Myran", "Bladlusen")
-var underMyran = Arrays.asList("Bladlusen")
+    var tomteland = Tomteland()
+    var underTomten = Arrays.asList("Tröger", "Trötter", "Blyger", "Dammråttan", "Skumtomten", "Glader", "Butter", "Rådjuret", "Nyckelpigan", "Haren", "Räven", "Gråsuggan", "Myran", "Bladlusen")
+    var underGlader = Arrays.asList("Tröger", "Trötter", "Blyger", "Dammråttan", "Skumtomten")
+    var underButter = Arrays.asList("Rådjuret", "Nyckelpigan", "Haren", "Räven", "Gråsuggan", "Myran", "Bladlusen")
+    var underTrötter = Arrays.asList("Dammråttan", "Skumtomten")
+    var underSkumtomten = Arrays.asList("Dammråttan")
+    var underRäven = Arrays.asList("Gråsuggan", "Myran", "Bladlusen")
+    var underMyran = Arrays.asList("Bladlusen")
 
-@Test
-fun getUnderlingsOfMyranTest() {
-    val list = mutableListOf<String>()
-    val underlings = tomteland.getUnderlings("Myran", list)
-    assertEquals(underlings.size, underMyran.size)
-    //assertFalse(underlings.retainAll(underMyran))
-}
+    @Test
+    fun getUnderlingsOfMyranTest() {
+        val list = mutableListOf<String>()
+        val underlings = tomteland.getUnderlings(tomte = tomteland.myran, list)
+        assertEquals(underlings.size, underMyran.size)
+    }
 
-@Test
-fun getUnderlingsOfRävenTest() {
-    val list = mutableListOf<String>()
-    val underlings = tomteland.getUnderlings("Räven", list)
-    assertEquals(underlings.size, underRäven.size)
-    //assertFalse(underlings.retainAll(underRäven))
-}
+    @Test
+    fun getUnderlingsOfRävenTest() {
+        val list = mutableListOf<String>()
+        val underlings = tomteland.getUnderlings(tomte = tomteland.räven, list)
+        assertEquals(underlings.size, underRäven.size)
+    }
 
-@Test
-fun getUnderlingsOfSkumtomtenTest() {
-    val list = mutableListOf<String>()
-    val underlings = tomteland.getUnderlings("Skumtomten", list)
-    assertEquals(underlings.size, underSkumtomten.size)
-    //assertFalse(underlings.retainAll(underSkumtomten))
-}
+    @Test
+    fun getUnderlingsOfSkumtomtenTest() {
+        val list = mutableListOf<String>()
+        val underlings = tomteland.getUnderlings(tomte = tomteland.skumtomten, list)
+        assertEquals(underlings.size, underSkumtomten.size)
+    }
 
-@Test
-fun getUnderlingsOfTrötterTest() {
-    val list = mutableListOf<String>()
-    val underlings = tomteland.getUnderlings("Trötter", list)
-    assertEquals(underlings.size, underTrötter.size)
-    //assertFalse(underlings.retainAll(underTrötter))
-}
+    @Test
+    fun getUnderlingsOfTrötterTest() {
+        val list = mutableListOf<String>()
+        val underlings = tomteland.getUnderlings(tomte = tomteland.trötter, list)
+        assertEquals(underlings.size, underTrötter.size)
+    }
 
-@Test
-fun getUnderlingsOfButterTest() {
-    val list = mutableListOf<String>()
-    val underlings = tomteland.getUnderlings("Butter", list)
-    assertEquals(underlings.size, underButter.size)
-    //assertFalse(underlings.retainAll(underButter))
-}
+    @Test
+    fun getUnderlingsOfButterTest() {
+        val list = mutableListOf<String>()
+        val underlings = tomteland.getUnderlings(tomte = tomteland.butter, list)
+        assertEquals(underlings.size, underButter.size)
+    }
 
-@Test
-fun getUnderlingsOfGladerTest() {
-    val list = mutableListOf<String>()
-    val underlings = tomteland.getUnderlings("Glader", list)
-    assertEquals(underlings.size, underGlader.size)
-    //assertFalse(underlings.retainAll(underGlader))
-}
+    @Test
+    fun getUnderlingsOfGladerTest() {
+        val list = mutableListOf<String>()
+        val underlings = tomteland.getUnderlings(tomte = tomteland.glader, list)
+        assertEquals(underlings.size, underGlader.size)
+    }
 
-@Test
-fun getUnderlingsOfTomtenTest() {
-    val list = mutableListOf<String>()
-    val underlings = tomteland.getUnderlings("Tomten", list)
-    assertEquals(underlings.size, underTomten.size)
-    //assertFalse(underlings.retainAll(underTomten))
+    @Test
+    fun getUnderlingsOfTomtenTest() {
+        val list = mutableListOf<String>()
+        val underlings = tomteland.getUnderlings(tomte = tomteland.tomten, list)
+        assertEquals(underlings.size, underTomten.size)
+    }
 }

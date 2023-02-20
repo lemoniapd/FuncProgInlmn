@@ -12,13 +12,6 @@ var testInput = fileToListConverter.listFromInputFileString("src/Del1/AoC2022_Da
 var day2a = Day2a_Before()
 var day2b = Day2b_Before()
 
-
-@Test
-fun listFromInputFileTest() {
-    val listToCompare = Arrays.asList("A Y", "B X", "C Z")
-    Assertions.assertEquals(listToCompare.size, testInput.size)
-}
-
 @Test
 fun getMyScoreTest() {
     val myScore = day2a.getMyScore(testInput)

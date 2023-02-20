@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7787038-1982-40b8-b6e0-38d404145b88" name="Changes" comment="added first after-versions">
+    <list default="true" id="a7787038-1982-40b8-b6e0-38d404145b88" name="Changes" comment="re-naming of packages">
+      <change afterPath="$PROJECT_DIR$/src/del1_AoC/AoC2022_Day1/Day1a-2022-after.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/del1_AoC/AoC2022_Day1/Day1b-2022-after.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1_Nordpolen/Tomte.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del2_Nordpolen/Tomte.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/del1_Nordpolen/Tomteland.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del2_Nordpolen/Tomteland.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1_Nordpolen/TomtelandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/del2_Nordpolen/TomtelandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/del1_Nordpolen/TomtelandTestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del2_Nordpolen/TomtelandTestKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del2_Nordpolen/Tomte.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del2_Nordpolen/Tomte.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/del2_Nordpolen/Tomteland.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/del2_Nordpolen/Tomteland.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del1_AoC/AoC2022_Day1/AoC2022_Day1TestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1_AoC/AoC2022_Day1/AoC2022_Day1TestKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del1_AoC/AoC2022_Day2/AoC2022_Day2TestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del1_AoC/AoC2022_Day2/AoC2022_Day2TestKotlin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del2_Nordpolen/TomtelandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/del2_Nordpolen/TomtelandTestKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/test/del2_Nordpolen/TomtelandTestKotlin.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1_AoC/AoC2015_Day1",
+    "last_opened_file_path": "/Users/lemoniapalmqvist/IdeaProjects/FuncProgInlmn/src/del1_AoC/AoC2022_Day1",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -56,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/del1_AoC/AoC2022_Day1" />
       <recent name="$PROJECT_DIR$/src/del1_AoC/AoC2015_Day1" />
       <recent name="$PROJECT_DIR$/src/del1_AoC/AoC2018_Day1" />
       <recent name="$PROJECT_DIR$/src/del1/AoC2021_Day1" />
       <recent name="$PROJECT_DIR$/src/del1/AoC2018_Day1" />
-      <recent name="$PROJECT_DIR$/src/del1" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -83,91 +87,81 @@
       <recent name="Del1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileToListConverterTest.listFromInputFileStringTest">
-    <configuration name="AoC2015_Day1TestKotlin (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TomtelandTestKotlin (2)">
+    <configuration name="Day1a_BeforeTestKotlin (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FuncProgInlmn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="del1_AoC.AoC2015_Day1.*" />
+          <option name="PATTERN" value="del1_AoC.AoC2022_Day1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="del1_AoC.AoC2015_Day1" />
-      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2015_Day1.AoC2015_Day1TestKotlin" />
+      <option name="PACKAGE_NAME" value="del1_AoC.AoC2022_Day1" />
+      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2022_Day1.Day1a_BeforeTestKotlin" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AoC2015_Day1TestKotlin (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TomtelandTestKotlin (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FuncProgInlmn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="del1_AoC.AoC2015_Day1.*" />
+          <option name="PATTERN" value="del2_Nordpolen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="del1_AoC.AoC2015_Day1" />
-      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2015_Day1.AoC2015_Day1TestKotlin" />
+      <option name="PACKAGE_NAME" value="del2_Nordpolen" />
+      <option name="MAIN_CLASS_NAME" value="del2_Nordpolen.TomtelandTestKotlin" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AoC2015_Day1TestKotlin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TomtelandTestKotlin (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FuncProgInlmn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="del1_AoC.AoC2015_Day1.*" />
+          <option name="PATTERN" value="del2_Nordpolen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="del1_AoC.AoC2015_Day1" />
-      <option name="MAIN_CLASS_NAME" value="del1_AoC.AoC2015_Day1.AoC2015_Day1TestKotlin" />
+      <option name="PACKAGE_NAME" value="del2_Nordpolen" />
+      <option name="MAIN_CLASS_NAME" value="del2_Nordpolen.TomtelandTestKotlin" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileToListConverterTest.listFromInputFileStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TomtelandTestKotlin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FuncProgInlmn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="del1_AoC.*" />
+          <option name="PATTERN" value="del2_Nordpolen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="del1_AoC" />
-      <option name="MAIN_CLASS_NAME" value="del1_AoC.FileToListConverterTest" />
-      <option name="METHOD_NAME" value="listFromInputFileStringTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="del2_Nordpolen" />
+      <option name="MAIN_CLASS_NAME" value="del2_Nordpolen.TomtelandTestKotlin" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TomtelandTest,getUnderlingsOfMyranTest and 6 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TomtelandKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="del2_Nordpolen.TomtelandKt" />
       <module name="FuncProgInlmn" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <patterns>
-        <pattern testClass="del1_Nordpolen.TomtelandTest,getUnderlingsOfMyranTest" />
-        <pattern testClass="del1_Nordpolen.TomtelandTest,getUnderlingsOfRävenTest" />
-        <pattern testClass="del1_Nordpolen.TomtelandTest,getUnderlingsOfSkumtomtenTest" />
-        <pattern testClass="del1_Nordpolen.TomtelandTest,getUnderlingsOfTrötterTest" />
-        <pattern testClass="del1_Nordpolen.TomtelandTest,getUnderlingsOfButterTest" />
-        <pattern testClass="del1_Nordpolen.TomtelandTest,getUnderlingsOfGladerTest" />
-        <pattern testClass="del1_Nordpolen.TomtelandTest,getUnderlingsOfTomtenTest" />
-      </patterns>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FileToListConverterTest.listFromInputFileStringTest" />
-        <item itemvalue="JUnit.TomtelandTest,getUnderlingsOfMyranTest and 6 more" />
-        <item itemvalue="JUnit.AoC2015_Day1TestKotlin (2)" />
-        <item itemvalue="JUnit.AoC2015_Day1TestKotlin (1)" />
-        <item itemvalue="JUnit.AoC2015_Day1TestKotlin" />
+        <item itemvalue="JUnit.TomtelandTestKotlin (2)" />
+        <item itemvalue="JUnit.TomtelandTestKotlin (1)" />
+        <item itemvalue="JUnit.TomtelandTestKotlin" />
+        <item itemvalue="Kotlin.TomtelandKt" />
+        <item itemvalue="JUnit.Day1a_BeforeTestKotlin (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +177,7 @@
       <workItem from="1676477601015" duration="16448000" />
       <workItem from="1676715549684" duration="473000" />
       <workItem from="1676716056115" duration="13224000" />
-      <workItem from="1676731459319" duration="8096000" />
+      <workItem from="1676731459319" duration="14392000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <created>1676715488281</created>
@@ -233,7 +227,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1676808079820</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="re-naming of packages">
+      <created>1676808719331</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1676808719331</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +258,7 @@
     <MESSAGE value="package re-naming, added tests" />
     <MESSAGE value="added 2018 day 1b" />
     <MESSAGE value="added first after-versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added first after-versions" />
+    <MESSAGE value="re-naming of packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-naming of packages" />
   </component>
 </project>

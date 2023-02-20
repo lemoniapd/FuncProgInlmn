@@ -18,56 +18,36 @@ class Tomteland {
     val myran = Tomte("Myran")
     val bladlusen = Tomte("Bladlusen")
 
-    val underTomten = mapOf(tomten to listOf(butter, glader))
-    val underGlader = mapOf(glader to listOf(tröger, trötter, blyger))
-    val underButter = mapOf(butter to listOf(rådjuret, nyckelpigan, haren, räven))
-    val underTrötter = mapOf(trötter to listOf(skumtomten))
-    val underSkumtomten = mapOf(skumtomten to listOf(dammråttan))
-    val underRäven = mapOf(räven to listOf(gråsuggan, myran))
-    val underMyran = mapOf(myran to listOf(bladlusen))
+    val underTomten = listOf(butter, glader)
+    val underGlader = listOf(tröger, trötter, blyger)
+    val underButter = listOf(rådjuret, nyckelpigan, haren, räven)
+    val underTrötter = listOf(skumtomten)
+    val underSkumtomten = listOf(dammråttan)
+    val underRäven = listOf(gråsuggan, myran)
+    val underMyran = listOf(bladlusen)
 
-    fun getUnderlings(input: String, result: MutableList<String>): List<String> {
-/*
-        fun find(input: String, result: MutableList<String>) : String {
-            if (input.equals("")){
-                return result
-            } else{
-
-            }
+    fun getUnderlings(tomte: Tomte, result: MutableList<String>): List<String> {
+        mappingUnderlings()
+        for (element in tomte.underlings){
+            result.add(element.name)
+            getUnderlings(element, result)
         }
+        return result
+    }
 
-        //skriv denna metod, glöm inte att den ska vara rekursiv!
- */
-        throw UnsupportedOperationException()
+    fun mappingUnderlings(){
+        tomten.underlings = underTomten
+        glader.underlings = underGlader
+        butter.underlings = underButter
+        trötter.underlings = underTrötter
+        räven.underlings = underRäven
+        skumtomten.underlings = underSkumtomten
+        myran.underlings = underMyran
     }
 }
 
-
-
-//användning av rekursion, mycket bra exempel för att förstå rekursion
-fun String.printRepeat2(i: Int): String {
-    fun repeat(i: Int, acc: String = "$this"): String {
-        if (i < 1) {
-            return acc
-        } else {
-            return repeat(i - 1, "$this $acc")
-        }
-    }
-    return repeat(i - 1)
+fun main() {
+    val tomteland = Tomteland()
+    val result = mutableListOf<String>()
+    println(tomteland.getUnderlings(tomteland.räven, result))
 }
-
-
-
-    fun main() {
-        val tomteland = Tomteland()
-        while (true) {
-            println("Vilken Tomte vill du ha underordnade till? X för att avbryta")
-            var input = readLine()
-            if (input.equals("X") || input.equals("x")) break
-            else {
-                var result: MutableList<String> = mutableListOf<String>()
-                println("$input's underordnade är:")
-                println(input?.let { tomteland.getUnderlings(it, result) })
-            }
-        }
-    }
