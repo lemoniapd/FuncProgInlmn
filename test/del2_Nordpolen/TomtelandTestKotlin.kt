@@ -6,14 +6,14 @@ import java.util.*
 
 internal class TomtelandTestKotlin {
 
-    var tomteland = Tomteland()
-    var underTomten = Arrays.asList("Tröger", "Trötter", "Blyger", "Dammråttan", "Skumtomten", "Glader", "Butter", "Rådjuret", "Nyckelpigan", "Haren", "Räven", "Gråsuggan", "Myran", "Bladlusen")
-    var underGlader = Arrays.asList("Tröger", "Trötter", "Blyger", "Dammråttan", "Skumtomten")
-    var underButter = Arrays.asList("Rådjuret", "Nyckelpigan", "Haren", "Räven", "Gråsuggan", "Myran", "Bladlusen")
-    var underTrötter = Arrays.asList("Dammråttan", "Skumtomten")
-    var underSkumtomten = Arrays.asList("Dammråttan")
-    var underRäven = Arrays.asList("Gråsuggan", "Myran", "Bladlusen")
-    var underMyran = Arrays.asList("Bladlusen")
+    val tomteland = Tomteland()
+    val underTomten = Arrays.asList("Tröger", "Trötter", "Blyger", "Dammråttan", "Skumtomten", "Glader", "Butter", "Rådjuret", "Nyckelpigan", "Haren", "Räven", "Gråsuggan", "Myran", "Bladlusen")
+    val underGlader = Arrays.asList("Tröger", "Trötter", "Blyger", "Dammråttan", "Skumtomten")
+    val underButter = Arrays.asList("Rådjuret", "Nyckelpigan", "Haren", "Räven", "Gråsuggan", "Myran", "Bladlusen")
+    val underTrötter = Arrays.asList("Dammråttan", "Skumtomten")
+    val underSkumtomten = Arrays.asList("Dammråttan")
+    val underRäven = Arrays.asList("Gråsuggan", "Myran", "Bladlusen")
+    val underMyran = Arrays.asList("Bladlusen")
 
     @Test
     fun getUnderlingsOfMyranTest() {

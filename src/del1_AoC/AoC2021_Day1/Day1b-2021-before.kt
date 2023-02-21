@@ -38,11 +38,13 @@ Consider sums of a three-measurement sliding window. How many sums are larger th
 
 class Day1b_2021_before {
 
-    fun getAmountOfIncreases(inputList: List<Int>): Int {
+    fun getAmountOfIncreasesWindow(inputList: List<Int>): Int {
         var counter = 0
-        var mapToCompare = inputList.zipWithNext()
-        for ((key, value) in mapToCompare){
-            if (key < value){
+        val windowsToCompare = inputList.windowed(3)
+        for (i in 1 until windowsToCompare.size){
+            val previousWindowSum = windowsToCompare[i - 1].sum()
+            val currentWindowSum = windowsToCompare[i].sum()
+            if (previousWindowSum < currentWindowSum){
                 counter++
             }
         }
@@ -53,6 +55,6 @@ class Day1b_2021_before {
 fun main() {
     val fileToListConverter = FileToListConverter()
     val day1b = Day1b_2021_before()
-    val listWithInput = fileToListConverter.listFromInputFileInt("src/del1/AoC2021_Day1/actualInput")
-    println(day1b.getAmountOfIncreases(listWithInput))
+    val listWithInput = fileToListConverter.listFromInputFileInt("src/del1_AoC/AoC2021_Day1/actualInput")
+    println(day1b.getAmountOfIncreasesWindow(listWithInput))
 }

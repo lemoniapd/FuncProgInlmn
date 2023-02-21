@@ -3,7 +3,9 @@ package del1_AoC.AoC2018_Day1
 import del1_AoC.FileToListConverter
 
 /*
-TBA!!!
+Använder som i 2015 en sequence och därefter lambda istället för for-loop för att iterera,
+ingen extension function behövs som på länk nedan utan det går bra att direkt använda Kotlin's asSequence
+https://todd.ginsberg.com/post/advent-of-code/2018/day1/
  */
 
 
@@ -12,15 +14,9 @@ class Day1b_2018_after {
     fun getFirstDuplicate2(fullList: List<Int>): Int {
         val seen = mutableSetOf<Int>()
         var currentFrequency = 0
-        while (true) {
-            for (i in fullList) {
-                currentFrequency += i
-                if (seen.contains(currentFrequency)) {
-                    return currentFrequency
-                }
-                seen.add(currentFrequency)
-            }
-        }
+        return fullList.asSequence().map {
+            currentFrequency += it
+            currentFrequency}.first{!seen.add(it)}
     }
 }
 

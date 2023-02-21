@@ -3,7 +3,7 @@ package del1_AoC.AoC2022_Day1
 import del1_AoC.FileToListConverter
 
 /*
-take(3) istället för att plussa ihop de 3 första elementen
+Använder take(3) istället för att plussa ihop de 3 första elementen som i före-version
 https://todd.ginsberg.com/post/advent-of-code/2022/day1/
  */
 
@@ -12,7 +12,7 @@ class Day1b_2022_after {
         val intList = mutableListOf<Int>()
         var sum = 0
         for (element in inputList) {
-            if (element.isNullOrBlank()) {
+            if (element.isBlank()) {
                 intList.add(sum)
                 sum = 0
             } else {

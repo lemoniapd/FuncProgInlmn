@@ -42,6 +42,7 @@ class Day1b_2018_before {
     }
 }
 
+
 fun main() {
     val fileToListConverter = FileToListConverter()
     val day1b = Day1b_2018_before()

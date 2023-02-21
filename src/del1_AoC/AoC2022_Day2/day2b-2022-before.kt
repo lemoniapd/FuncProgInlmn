@@ -23,8 +23,8 @@ The score for a single round is the score for the shape you selected (1 for Rock
 plus the score for the outcome of the round (0 if you lost, 3 if the round was a draw, and 6 if you won).
  */
 
-class Day2b_Before {
-    fun getMyScore2(inputList: List<String>): Int {
+class Day2b_2022_before {
+    fun getMyNewScore(inputList: List<String>): Int {
         var myScore = 0
         for (element in inputList) {
             when (element) {
@@ -46,7 +46,7 @@ class Day2b_Before {
 
 fun main() {
     val fileToListConverter = FileToListConverter()
-    val day2b = Day2b_Before()
-    val listWithInput = fileToListConverter.listFromInputFileString("src/del1/AoC2022_Day2/actualInput")
-    println(day2b.getMyScore2(listWithInput))
+    val day2b = Day2b_2022_before()
+    val listWithInput = fileToListConverter.listFromInputFileString("src/del1_AoC/AoC2022_Day2/actualInput")
+    println(day2b.getMyNewScore(listWithInput))
 }

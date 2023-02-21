@@ -3,27 +3,26 @@ package del1_AoC.AoC2018_Day1
 import del1_AoC.FileToListConverter
 
 /*
-TBA!!!
+Återanvänder kod från dag 1a's efter-version för att gå igenom int-lista som sequence (som har ett index som returneras) i en lambda
+OBS i efterversion returneras indexOf(-1) (occurence of) och inte indexet för där -1 uppstår första gången
+https://windmaomao.medium.com/kotlin-day-1-up-and-down-38885a5fc2b1
  */
 
 
 class Day1b_2015_after {
 
     fun getIndexOfBasement2(inputList: List<String>): Int {
-        var level = 0
-        var index = 0
         val stringInput = inputList.get(0)
-        for (i in 0 until stringInput.length) {
-            when (stringInput[i].toString()) {
-                "(" -> level += 1
-                ")" -> level -= 1
-            }
-            if (level == -1){
-                index = i+1
-                break
-            }
-        }
-        return index
+        val intList =stringInput.map { mappingValue2(it) }.toList()
+        return intList.asSequence()
+            .scan(0) { acc, v -> acc + v }
+            .indexOf(-1)
+    }
+
+    fun mappingValue2(c: Char) = when (c) {
+        '(' -> 1
+        ')' -> -1
+        else -> 0
     }
 }
 

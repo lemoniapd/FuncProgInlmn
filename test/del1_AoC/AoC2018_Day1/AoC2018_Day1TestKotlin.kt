@@ -6,13 +6,14 @@ import org.junit.Test
 import org.junit.jupiter.api.Assertions
 
 class AoC2018_Day1TestKotlin {
-    var fileToListConverter = FileToListConverter()
-    var testInputString = fileToListConverter.listFromInputFileString("src/del1_AoC/AoC2018_Day1/testInput")
-    var testInputInt = fileToListConverter.listFromInputFileInt("src/del1_AoC/AoC2018_Day1/testInput")
-    var day1a = Day1a_2018_before()
-    var day1a2 = Day1a_2018_after()
-    var day1b = Day1b_2018_before()
-    var day1b2 = Day1b_2018_after()
+
+    val fileToListConverter = FileToListConverter()
+    val testInputString = fileToListConverter.listFromInputFileString("src/del1_AoC/AoC2018_Day1/testInput")
+    val testInputInt = fileToListConverter.listFromInputFileInt("src/del1_AoC/AoC2018_Day1/testInput")
+    val day1a = Day1a_2018_before()
+    val day1a2 = Day1a_2018_after()
+    val day1b = Day1b_2018_before()
+    val day1b2 = Day1b_2018_after()
 
     @Test
     fun getFrequencyTest() {

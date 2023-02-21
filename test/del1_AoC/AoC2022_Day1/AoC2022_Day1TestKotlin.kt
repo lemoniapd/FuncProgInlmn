@@ -5,14 +5,14 @@ import org.junit.Test
 import org.junit.jupiter.api.Assertions.*
 
 internal class Day1a_BeforeTestKotlin {
-    var fileToListConverter = FileToListConverter()
-    var testInput = fileToListConverter.listFromInputFileString("src/del1_AoC/AoC2022_Day1/testInput")
-    var day1a = Day1a_2022_before()
-    var day1a2 = Day1a_2022_after()
-    var day1b = Day1b_2022_before()
-    var day1b2 = Day1b_2022_after()
 
-    //1a
+    val fileToListConverter = FileToListConverter()
+    val testInput = fileToListConverter.listFromInputFileString("src/del1_AoC/AoC2022_Day1/testInput")
+    val day1a = Day1a_2022_before()
+    val day1a2 = Day1a_2022_after()
+    val day1b = Day1b_2022_before()
+    val day1b2 = Day1b_2022_after()
+
     @Test
     fun getHighestSumValueFromInputListTest() {
         val highestTestValue = day1a.getHighestSumValueFromInputList(testInput)
@@ -25,7 +25,6 @@ internal class Day1a_BeforeTestKotlin {
         assertEquals(24000, highestTestValue)
     }
 
-    //1b
     @Test
     fun getHighestThreeSumValueFromInputListTest() {
         val highestThreeTestValues = day1b.getHighestThreeSumValueFromInputList(testInput)
